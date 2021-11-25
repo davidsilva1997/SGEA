@@ -1,0 +1,175 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Portuguese (Portugal) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PTG)
+LANGUAGE LANG_PORTUGUESE, SUBLANG_PORTUGUESE
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU MENU
+BEGIN
+    POPUP "Controlador"
+    BEGIN
+        MENUITEM "Shutdown",                    ID_CONTROLADOR_SHUTDOWN
+    END
+    POPUP "Aeroportos"
+    BEGIN
+        MENUITEM "Adicionar",                   ID_AEROPORTOS_ADICIONAR
+        MENUITEM "Listar",                      ID_AEROPORTOS_LISTAR
+    END
+    POPUP "Aviões"
+    BEGIN
+        MENUITEM "Listar",                      ID_AVIOES_LISTAR
+        MENUITEM "Bloquear aceitação",          ID_AVIOES_BLOCK
+        MENUITEM "Desbloquear aceitação",       ID_AVIOES_UNBLOCK
+    END
+    POPUP "Passageiros"
+    BEGIN
+        MENUITEM "Listar",                      ID_PASSAGEIROS_LISTAR
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON_SGEA           ICON                    "icon1.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+DLG_ADD_AIRPORT DIALOGEX 0, 0, 207, 98
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Adicionar aeroporto"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Adicionar",IDOK,84,78,50,14
+    PUSHBUTTON      "Cancelar",IDCANCEL,150,78,50,14
+    LTEXT           "Nome do aeroporto",IDC_STATIC,12,6,78,12
+    LTEXT           "Coordenada X",IDC_STATIC,12,30,78,12
+    LTEXT           "Coordenada Y",IDC_STATIC,12,54,78,12
+    EDITTEXT        ecAirportName,102,6,96,12,ES_AUTOHSCROLL
+    EDITTEXT        ecAirportX,102,30,96,12,ES_AUTOHSCROLL
+    EDITTEXT        ecAirportY,102,54,96,12,ES_AUTOHSCROLL
+END
+
+DLG_EXECUTE_CMD DIALOGEX 0, 0, 207, 50
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Executar comando"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,90,30,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,150,30,50,14
+    LTEXT           "Insira o comando",IDC_STATIC,12,6,78,12
+    EDITTEXT        ecCmd,102,6,96,12,ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    DLG_ADD_AIRPORT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 91
+    END
+
+    DLG_EXECUTE_CMD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 43
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+DLG_ADD_AIRPORT AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+DLG_EXECUTE_CMD AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // Portuguese (Portugal) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

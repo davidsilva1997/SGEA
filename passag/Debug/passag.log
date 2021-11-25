@@ -1,0 +1,3 @@
+﻿  passag.c
+C:\Users\david\Desktop\SO2-M2-DavidSilva-2016020492-P3\SGEA\passag\passag.c(315,35): warning C4013: 'handleAnswerFromController' indefinido; assumindo extern retornando int
+  passag.vcxproj -> C:\Users\david\Desktop\SO2-M2-DavidSilva-2016020492-P3\SGEA\Debug\passag.exe

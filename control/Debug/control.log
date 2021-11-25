@@ -1,0 +1,9 @@
+﻿  comum.c
+  control.c
+  registry.c
+C:\Users\david\Desktop\SO2-M2-DavidSilva-2016020492-P3\SGEA\control\registry.c(28,10): warning C4133: 'função': tipos incompatíveis - de 'DWORD *' para 'LPBYTE'
+  shared_memory.c
+  Gerando Código...
+C:\Users\david\Desktop\SO2-M2-DavidSilva-2016020492-P3\SGEA\control\control.c(763): warning C4172: retornando o endereço da variável local ou temporário: data
+C:\Users\david\Desktop\SO2-M2-DavidSilva-2016020492-P3\SGEA\control\control.c(2375): warning C4716: 'sendMessageToPassenger': deve retornar um valor
+  control.vcxproj -> C:\Users\david\Desktop\SO2-M2-DavidSilva-2016020492-P3\SGEA\Debug\control.exe
